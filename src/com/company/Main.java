@@ -296,7 +296,7 @@ public class Main {
         }
         for (int i = 0; i < arr.length; i++) {
             //*Substring vezme první 4 čísla z array*//
-            String toFour = arr[i].substring(0, 4);
+            String toFour = arr[i].substring(0, 3);
             //*parseInt změní string na int*//
             int a = Integer.parseInt(toFour);
             //*Zjistí zda první 4 čísla jsou v rozmezí 2221 a 2720*//
@@ -304,7 +304,7 @@ public class Main {
                 //*Přičte všechny odpovídající čísla do proměnné int masterCard*//
                 masterCard++;
             }
-            //*Substring vezme první 2 čísla z array*//
+            //*Substring vezme první 3 čísla z array*//
             String toTwo = arr[i].substring(0, 2);
             //*parseInt změní string na int*//
             int b = Integer.parseInt(toTwo);
